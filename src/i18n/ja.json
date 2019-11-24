@@ -1,0 +1,17 @@
+{
+	"DRAFT":"保存成功!",
+	"SUBMIT":"成功を提出!",
+	"BACK":"前回浏览ページに確定？",
+	"APPROVE":"任務承認を通じて!",
+	"REJECT":"任務が棄却した！",
+	"HOME":"ホーム",
+	"DEMO": "デモンストレーション",
+	
+	"contractApprove":"契約書批准",
+	"contractApprove.contractNo":"契約番号",
+	"contractApprove.startDate":"契約から日程",
+	"contractApprove.endDate":"契約終了日程",
+	"contractApprove.contractDesc":"契約の说明",
+	"contractApprove.vendor":"ベンダー",
+	"contractApprove.zone":"区域"
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=edge;IE=9" />
+  <!--<meta http-equiv="x-ua-compatible" content="IE=11;IE=10;IE=9;IE=8;IE=7;IE=EDGE" />-->
+  <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *;img-src * 'self' data: localhost 129.184.13.31 *.bullchina.net; style-src * 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <title>VWATJ</title>
+    <script src="static/polyfill.min.js"></script>
+    <!--
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    -->
+    <!--[if lt IE 9]>
+      <script src="./static/html5shiv.min.js"></script>
+      <script src="./static/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="hold-transition skin-blue fixed sidebar-mini">
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script type="text/javascript" src="cordova.js"></script>
+     <script src="static/jquery.min.js"></script>
+    <script src="static/jquery.uploadify.deps.js"></script>
+    <!-- fix ie in iframe -->
+    <script>
+    	document.documentElement.focus();
+    	$(document).ready(function() {
+				$(parent.window).scroll(function() {
+					if(Config.MODE_TYPE === 'apon')
+					$(".jconfirm .jconfirm-cell").css({
+						
+						top: $(parent.window).scrollTop()+200
+
+					});
+				});
+			});
+    </script>
+</body>
+
+</html>
