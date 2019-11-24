@@ -13,7 +13,7 @@
   "dependencies": {
     "adminlte": "^2.4.1",
     "axios": "^0.16.1",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "datatables": "^1.10.13",
     "vue-signature": "^1.9.1",
     "font-awesome": "^4.7.0",
